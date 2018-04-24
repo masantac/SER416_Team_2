@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Equipment Rental</title>
+
+    <title>Rent Equipment</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
           integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -52,7 +53,221 @@
 
 
 
+<main role="main">
+    <section class="jumbotron text-center mt-5">
+        <div class="container">
+            <div id = "formTitle">
+            <h1 class="jumbotron-heading">Rent Equipment</h1>
+            <p class="lead text-muted">This page provides you with a template to select what equipment you would like for your event.</p>
+            </div>
+        </div>
+    </section>
 
+    <div id="equipmentForm">
+    <form class="container">
+        
+          
+      <div class="form-row">
+        <div class="form-group col-md-5">
+          <label for="inputCity">Choose Date</label>
+          <div class='input-group date' id='datetimepicker1'>
+                    <input type="date" class="form-control" >
+                </div>
+        </div>
+        <div class="form-group col-md-5">
+          <label for="inputState">Choose Time</label>
+          <select id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option>1:00</option>
+            <option>2:00</option>
+            <option>3:00</option>
+            <option>4:00</option>
+            <option>5:00</option>
+            <option>6:00</option>
+            <option>7:00</option>
+            <option>8:00</option>
+            <option>9:00</option>
+            <option>10:00</option>
+            <option>11:00</option>
+            <option>12:00</option>
+          </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="inputState">AM/PM</label>
+          <select id="inputState" class="form-control">
+            <option selected>Choose Time...</option>
+            <option>AM</option>
+            <option>PM</option>
+          </select>
+        </div>
+      </div>
+
+          <div class="control-group">
+            <p class="pull-left">Choose Equipment</p>
+
+            <div class="controls span2">
+                <label class="checkbox">
+                    <input type="checkbox" value="option1" id="painting" onchange="paintingChecked(this)">Painting Supplies
+                </label>
+                <div id="paintingChecked"></div>
+            </div>
+
+            <div class="controls span2">
+                <label class="checkbox">
+                    <input type="checkbox" value="option2" id="drawing" onchange="drawingChecked(this)">Drawing Supplies
+                </label>
+                <div id="drawingChecked"></div>
+            </div>
+
+            <div class="controls span2">
+                <label class="checkbox">
+                    <input type="checkbox" value="option3" id="chairs" onchange="chairsChecked(this)">Chairs
+                </label>
+                <div id="chairsChecked"></div>
+            </div>
+
+            <div class="controls span2">
+                <label class="checkbox">
+                    <input type="checkbox" value="option3" id="table" onchange="tableChecked(this)">Table
+                </label>
+                <div id="tableChecked"></div>
+            </div>
+
+            <div class="controls span2">
+                <label class="checkbox">
+                    <input type="checkbox" value="option1" id="speakers" onchange="speakersChecked(this)">Speakers
+                </label>
+                <div id="speakersChecked"></div>
+            </div>
+
+            <div class="controls span2">
+                <label class="checkbox">
+                    <input type="checkbox" value="option2" id="basketball" onchange="basketballChecked(this)">Basket Ball
+                </label>
+                <div id="basketballChecked"></div>
+            </div>
+
+            <div class="controls span2">
+                <label class="checkbox">
+                    <input type="checkbox" value="option3" id="soccer" onchange="soccerChecked(this)">Soccer Ball
+                </label>
+                <div id="soccerChecked"></div>
+            </div>
+            
+                
+                
+            
+            
+        </div>
+
+
+
+
+          <div class="form-group">
+          <div class="text-center">
+            <button type="button" class="btn btn-primary" onclick="submits()">Submit Form</button>
+          </div>
+          </div>
+
+
+      
+    </form>
+    </div>
+
+</main>
+
+
+
+
+
+
+<script>
+    
+function submits(){
+    document.getElementById("equipmentForm").innerHTML = "";
+    document.getElementById("formTitle").innerHTML = '<h1 class="jumbotron-heading">Equipment Request Submitted</h1>'+
+'<p class="lead text-muted">You will recieve an email if your request is approved.</p>';
+    
+
+}
+
+
+var artSupplies = '<div class="row-fluid">   '+
+'                <div class="form-group">'+
+'                    <div class="input-group ">'+
+'                        <a class="input-group-btn btn btn-default go inline">For How Many People: </a>'+
+'                        <input id="number" type="number" class="form-control">'+
+'                    </div>'+
+'                </div>'+
+'            </div>';
+
+var otherEquipment = '<div class="row-fluid">   '+
+'                <div class="form-group">'+
+'                    <div class="input-group ">'+
+'                        <a class="input-group-btn btn btn-default go inline">How Many Will You Need: </a>'+
+'                        <input id="number" type="number" class="form-control">'+
+'                    </div>'+
+'                </div>'+
+'            </div>';
+
+function paintingChecked(checkboxElem){
+        if (checkboxElem.checked) {
+        document.getElementById("paintingChecked").innerHTML = artSupplies;
+      } else {
+        document.getElementById("paintingChecked").innerHTML = "";
+      }
+}
+
+function drawingChecked(checkboxElem){
+        if (checkboxElem.checked) {
+        document.getElementById("drawingChecked").innerHTML = artSupplies;
+      } else {
+        document.getElementById("drawingChecked").innerHTML = "";
+      }
+}
+
+function chairsChecked(checkboxElem){
+        if (checkboxElem.checked) {
+        document.getElementById("chairsChecked").innerHTML = otherEquipment;
+      } else {
+        document.getElementById("chairsChecked").innerHTML = "";
+      }
+}
+
+function tableChecked(checkboxElem){
+        if (checkboxElem.checked) {
+        document.getElementById("tableChecked").innerHTML = otherEquipment;
+      } else {
+        document.getElementById("tableChecked").innerHTML = "";
+      }
+}
+
+function speakersChecked(checkboxElem){
+        if (checkboxElem.checked) {
+        document.getElementById("speakersChecked").innerHTML = otherEquipment;
+      } else {
+        document.getElementById("speakersChecked").innerHTML = "";
+      }
+}
+
+function basketballChecked(checkboxElem){
+        if (checkboxElem.checked) {
+        document.getElementById("basketballChecked").innerHTML = otherEquipment;
+      } else {
+        document.getElementById("basketballChecked").innerHTML = "";
+      }
+}
+
+function soccerChecked(checkboxElem){
+        if (checkboxElem.checked) {
+        document.getElementById("soccerChecked").innerHTML = otherEquipment;
+      } else {
+        document.getElementById("soccerChecked").innerHTML = "";
+      }
+}
+
+
+</script>
 
 
 
