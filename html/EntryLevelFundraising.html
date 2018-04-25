@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Entry Level Fundraising</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #F7F9FB;
+        }
+
+        nav > h6 {
+            color: #5085A5;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light py-3">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
+            aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+    </button>
+    <a href="Home.html" class="navbar-brand d-flex align-items-start text-primary">
+        <h2>Awesome Community</h2>
+    </a>
+    <div class="collapse navbar-collapse justify-content-md-end" id="navbarsExample08">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <h6><a class="nav-link text-dark" href="CreateEvent.html">Create Event</a></h6>
+            </li>
+            <li class="nav-item">
+                <h6><a class="nav-link text-dark" href="Volunteer.html">Volunteer</a></h6>
+            </li>
+            <li class="nav-item">
+                <h6><a class="nav-link text-dark" href="EquipmentRental.html">Equipment Rental</a></h6>
+            </li>
+            <li class="nav-item">
+                <h6><a class="nav-link text-dark" href="Calendar.html">Calendar</a></h6>
+            </li>
+            <li class="nav-item">
+                <h6><a class="nav-link text-dark" href="Donation.html">Donation</a></h6>
+            </li>
+            <li class="nav-item">
+                <h6><a class="nav-link text-dark" href="Profile.html">Profile</a></h6>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<main role="main">
+    
+    <section class="jumbotron text-center mt-5">
+        <div class="container">
+            <div id = "formTitle">
+            <div id="formTitle">
+            <h1 class="jumbotron-heading">Entry Level Fundraising</h1>
+            <p class="lead text-muted">This is the perfect opportunity for an entrepreneurial minded, self-starter, who wants to advance their career into a management role all while working to change lives around the world.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <div id ="applicationForm">
+    <div class="container">
+        <div class="card card-body" >
+    <section class="mt-1" style = "padding:10px">
+    <p><strong>As a Fundraiser</strong>, you are the most important element of our face-to-face fundraising strategy. You will go out to the public every day armed with knowledge and inspiration to share through meaningful conversations. With every successful dialogue, lives are changed around the world.</p>
+    <p>&nbsp;</p>
+    <p><strong>In this position, you will:</strong></p>
+    <ul>
+    <li>Engage with the public (face-to-face) through street canvassing</li>
+    <li>Pitch the charity in line with campaign messaging</li>
+    <li>Present the benefits of supporting varying charitable projects</li>
+    <li>Work in teams while reporting to a dedicated team leader who offers support and training</li>
+    <li>Progress from entry level to a leadership role with training and guidance from leaders and team members</li>
+    </ul>
+    <p><strong>Role requirements:</strong></p>
+    <ul>
+    <li>Ability to excel through training and motivate other fundraisers</li>
+    <li>Self-starter who loves to inspire people to make a difference</li>
+    <li>Excellent communications and customer service skills</li>
+    <li>Strong interpersonal skills combined with determination, resiliency and a positive attitude</li>
+    </ul>
+    <p><strong>We offer:</strong></p>
+    <ul>
+    <li>A competitive pay &ndash; base plus weekly performance bonus</li>
+    <li>Full benefits &ndash; health, dental, vision, 401K</li>
+    <li>25 days of paid time off</li>
+    <li>Travel opportunities to our many offices throughout the US</li>
+    <li>Casual and fun work environment</li>
+    </ul>
+    <p>If you have excellent communication and people skills, strong leadership capabilities, great work ethic, willingness to succeed, and a passion for helping charities succeed&hellip;. then&nbsp;<strong>WE WANT TO HEAR FROM YOU!</strong></p>
+    </section>
+
+    <div class="form-group">
+      <div class="text-center">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Apply</button>
+      </div>
+      </div>
+</div>
+</div>
+  </div>
+
+<div class="container">
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          
+          <h4 class="modal-title">Submit Application</h4>
+        </div>
+        <div class="modal-body">
+            <div class="form-row">
+                <div class="form-group col-md-5">
+                    <label>Email Address: </label>
+                    <input value="example@gmail.com" id="coloring">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-5">
+                    <label>Submit Resume: </label>
+                    <input name="myFile" type="file">
+                </div>
+        </div>
+
+        <div class="form-group">
+      <div class="text-center">
+        <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="submit()">Submit Application</button>
+      </div>
+      </div>
+            
+        </div>
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+</main>
+
+<script type="text/javascript">
+    
+
+
+function submit(){
+
+    document.getElementById("applicationForm").innerHTML = "";
+    document.getElementById("formTitle").innerHTML = '<h1 class="jumbotron-heading">Job Application Submitted</h1>'+
+'<p class="lead text-muted">We cannot wait to have you as part of the team! Expect to hear from us in 5 to 10 business days.</p>';
+    
+}
+
+</script>
+
+
+<div class="container d-flex justify-content-center">
+    <footer class="pt-4 my-md-5 pt-md-5 border-top" style="width: 100%">
+        <div class="row">
+            <div class="col-6 col-md mr-5 ml-5" style="width: 33%;">
+                <h5>Services</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="CreateEvent.html">Create an event</a></li>
+                    <li><a class="text-muted" href="Donation.html">Make a donation</a></li>
+                    <li><a class="text-muted" href="Volunteer.html">Volunteer</a></li>
+                    <li><a class="text-muted" href="EquipmentRental.html">Equipment rental</a></li>
+                    <li><a class="text-muted" href="Profile.html">Customize your profile</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md mr-5 ml-5">
+                <h5>Resources</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Sponsors</a></li>
+                    <li><a class="text-muted" href="#">Shelters nearby</a></li>
+                    <li><a class="text-muted" href="#">How to become a sponsor</a></li>
+                    <li><a class="text-muted" href="#">Food drives</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md mr-5 ml-5">
+                <h5>About</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Team</a></li>
+                    <li><a class="text-muted" href="#">Location</a></li>
+                    <li><a class="text-muted" href="#">Privacy</a></li>
+                    <li><a class="text-muted" href="#">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+<script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
