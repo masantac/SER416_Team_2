@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Volunteer</title>
+    <title>Sign Up To Volunteer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
           integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -10,6 +10,7 @@
         body {
             background-color: #F7F9FB;
         }
+
         nav > h6 {
             color: #5085A5;
         }
@@ -51,8 +52,150 @@
 
 
 
+<main role="main">
+    <section class="jumbotron text-center mt-5">
+        <div class="container">
+            <h1 class="jumbotron-heading">Volunteer</h1>
+            <p class="lead text-muted">Fill out this form with your information and availability and we will get back to you and see which events fit into your schedule.</p>
+        </div>
+    </section>
 
+    <form class="container">
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Full Name</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput2">Email Address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Telephone Number</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="inputAddress">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="form-group">
+            <label for="inputAddress2">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>AL</option>
+                    <option>AK</option>
+                    <option>AZ</option>
+                    <option>AR</option>
+                    <option>CA</option>
+                    <option>CO</option>
+                    <option>CT</option>
+                    <option>DE</option>
+                    <option>FL</option>
+                    <option>GA</option>
+                    <option>HI</option>
+                    <option>ID</option>
+                    <option>IL</option>
+                    <option>IN</option>
+                    <option>IA</option>
+                    <option>KS</option>
+                    <option>KY</option>
+                    <option>LA</option>
+                    <option>ME</option>
+                    <option>MD</option>
+                    <option>MA</option>
+                    <option>MI</option>
+                    <option>MN</option>
+                    <option>MS</option>
+                    <option>MO</option>
+                    <option>MT</option>
+                    <option>NE</option>
+                    <option>NV</option>
+                    <option>NH</option>
+                    <option>NJ</option>
+                    <option>NM</option>
+                    <option>NY</option>
+                    <option>NC</option>
+                    <option>ND</option>
+                    <option>OH</option>
+                    <option>OK</option>
+                    <option>OR</option>
+                    <option>PA</option>
+                    <option>RI</option>
+                    <option>SC</option>
+                    <option>SD</option>
+                    <option>TN</option>
+                    <option>TX</option>
+                    <option>UT</option>
+                    <option>VT</option>
+                    <option>VA</option>
+                    <option>WA</option>
+                    <option>WV</option>
+                    <option>WI</option>
+                    <option>WY</option>
+                </select>
+            </div>
+            <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+            </div>
+        </div>
 
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Age</label>
+            <textarea class="form-control" id="exampleFormControlTextarea2" rows="1"></textarea>
+        </div>
+
+        <fieldset class="form-group">
+            <div class="row">
+                <legend class="col-form-label col-sm-2 pt-0">Availability</legend>
+                <div class="col-sm-10">
+                    <input id="checkBox1" type="checkbox">
+                    <label for="monday">Monday</label>
+                    <input id="checkBox2" type="checkbox">
+                    <label for="tuesday">Tuesday</label>
+                    <input id="checkBox2" type="checkbox">
+                    <label for="wednesday">Wednesday</label>
+                    <input id="checkBox2" type="checkbox">
+                    <label for="thursday">Thursday</label>
+                    <input id="checkBox2" type="checkbox">
+                    <label for="friday">Friday</label>
+                    <input id="checkBox2" type="checkbox">
+                    <label for="saturday">Saturday</label>
+                    <input id="checkBox2" type="checkbox">
+                    <label for="sunday">Sunday</label>
+                </div>
+            </div>
+        </fieldset>
+        <div class="form-group">
+            <div class="row">
+                <legend class="col-form-label col-sm-2 pt-0">Preference</legend>
+                <div class="col-sm-10">
+                    <input id="checkBox1" type="checkbox">
+                    <label for="morning">Morning</label>
+                    <input id="checkBox2" type="checkbox">
+                    <label for="afternoon">Afternoon</label>
+                    <input id="checkBox2" type="checkbox">
+                    <label for="evening">Evening</label>
+                </div>
+            </div>
+
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Disabilities or other Accommodations</label>
+            <textarea class="form-control" id="exampleFormControlTextarea3" rows="4"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</main>
 
 
 
