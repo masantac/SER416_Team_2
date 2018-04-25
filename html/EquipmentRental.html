@@ -103,13 +103,19 @@
       </div>
 
           <div class="control-group">
-            <p class="pull-left">Choose Equipment</p>
+
+            <div class="text-center">
+            <p class="pull-left"><strong>Choose Equipment</strong></p>
+        </div>
+            <label for="inputCity"><strong>Art</strong></label>
+
+            
 
             <div class="controls span2">
                 <label class="checkbox">
-                    <input type="checkbox" value="option1" id="painting" onchange="paintingChecked(this)">Painting Supplies
+                    <input type="checkbox" value="option3" id="coloring" onchange="coloringChecked(this)">Coloring Supplies
                 </label>
-                <div id="paintingChecked"></div>
+                <div id="coloringChecked"></div>
             </div>
 
             <div class="controls span2">
@@ -121,6 +127,17 @@
 
             <div class="controls span2">
                 <label class="checkbox">
+                    <input type="checkbox" value="option1" id="painting" onchange="paintingChecked(this)">Painting Supplies
+                </label>
+                <div id="paintingChecked"></div>
+            </div>
+
+            
+
+            <label for="inputCity"><strong>Meetings</strong></label>
+
+            <div class="controls span2">
+                <label class="checkbox">
                     <input type="checkbox" value="option3" id="chairs" onchange="chairsChecked(this)">Chairs
                 </label>
                 <div id="chairsChecked"></div>
@@ -128,7 +145,21 @@
 
             <div class="controls span2">
                 <label class="checkbox">
-                    <input type="checkbox" value="option3" id="table" onchange="tableChecked(this)">Table
+                    <input type="checkbox" value="option1" id="mic" onchange="micChecked(this)">Microphone
+                </label>
+                <div id="micChecked"></div>
+            </div>
+
+            <div class="controls span2">
+                <label class="checkbox">
+                    <input type="checkbox" value="option1" id="projector" onchange="projectorChecked(this)">Projector
+                </label>
+                <div id="projectorChecked"></div>
+            </div>
+
+            <div class="controls span2">
+                <label class="checkbox">
+                    <input type="checkbox" value="option3" id="table" onchange="tableChecked(this)">Tables
                 </label>
                 <div id="tableChecked"></div>
             </div>
@@ -140,7 +171,18 @@
                 <div id="speakersChecked"></div>
             </div>
 
-            <div class="controls span2">
+
+            <label for="inputCity"><strong>Sports and Recreation</strong></label>
+
+            
+
+                <div class="controls span2">
+                <label class="checkbox">
+                    <input type="checkbox" value="option3" id="baseball" onchange="baseballChecked(this)">Baseball
+                </label>
+                <div id="baseballChecked"></div>
+                </div>
+
                 <label class="checkbox">
                     <input type="checkbox" value="option2" id="basketball" onchange="basketballChecked(this)">Basket Ball
                 </label>
@@ -153,12 +195,45 @@
                 </label>
                 <div id="soccerChecked"></div>
             </div>
-            
-                
-                
-            
-            
-        </div>
+
+            <div class="controls span2">
+                <label class="checkbox">
+                    <input type="checkbox" value="option3" id="paddles" onchange="paddlesChecked(this)">Ping Pong Paddles
+                </label>
+                <div id="paddlesChecked"></div>
+            </div>
+
+            <div class="controls span2">
+                <label class="checkbox">
+                    <input type="checkbox" value="option3" id="pingpongball" onchange="pingpongballChecked(this)">Ping Pong Ball
+                </label>
+                <div id="pingpongballChecked"></div>
+            </div>
+
+            <label for="inputCity"><strong>Gardening Equipment</strong></label>
+
+            <div class="controls span2">
+                <label class="checkbox">
+                    <input type="checkbox" value="option3" id="gloves" onchange="glovesChecked(this)">Gardening Gloves
+                </label>
+                <div id="glovesChecked"></div>
+            </div>
+
+            <div class="controls span2">
+                <label class="checkbox">
+                    <input type="checkbox" value="option3" id="hedge" onchange="hedgeChecked(this)">Hedge Trimmers
+                </label>
+                <div id="hedgeChecked"></div>
+            </div>
+
+            <div class="controls span2">
+                <label class="checkbox">
+                    <input type="checkbox" value="option3" id="mower" onchange="mowerChecked(this)">Lawn Mower
+                </label>
+                <div id="mowerChecked"></div>
+            </div>
+       
+       
 
 
 
@@ -226,6 +301,14 @@ function drawingChecked(checkboxElem){
       }
 }
 
+function coloringChecked(checkboxElem){
+        if (checkboxElem.checked) {
+        document.getElementById("coloringChecked").innerHTML = artSupplies;
+      } else {
+        document.getElementById("coloringChecked").innerHTML = "";
+      }
+}
+
 function chairsChecked(checkboxElem){
         if (checkboxElem.checked) {
         document.getElementById("chairsChecked").innerHTML = otherEquipment;
@@ -266,6 +349,69 @@ function soccerChecked(checkboxElem){
       }
 }
 
+function baseballChecked(checkboxElem){
+        if (checkboxElem.checked) {
+        document.getElementById("baseballChecked").innerHTML = otherEquipment;
+      } else {
+        document.getElementById("baseballChecked").innerHTML = "";
+      }
+}
+
+function paddlesChecked(checkboxElem){
+        if (checkboxElem.checked) {
+        document.getElementById("paddlesChecked").innerHTML = otherEquipment;
+      } else {
+        document.getElementById("paddlesChecked").innerHTML = "";
+      }
+}
+
+function pingpongballChecked(checkboxElem){
+        if (checkboxElem.checked) {
+        document.getElementById("pingpongballChecked").innerHTML = otherEquipment;
+      } else {
+        document.getElementById("pingpongballChecked").innerHTML = "";
+      }
+}
+
+function micChecked(checkboxElem){
+        if (checkboxElem.checked) {
+        document.getElementById("micChecked").innerHTML = otherEquipment;
+      } else {
+        document.getElementById("micChecked").innerHTML = "";
+      }
+}
+
+function projectorChecked(checkboxElem){
+        if (checkboxElem.checked) {
+        document.getElementById("projectorChecked").innerHTML = otherEquipment;
+      } else {
+        document.getElementById("projectorChecked").innerHTML = "";
+      }
+}
+
+function glovesChecked(checkboxElem){
+        if (checkboxElem.checked) {
+        document.getElementById("glovesChecked").innerHTML = otherEquipment;
+      } else {
+        document.getElementById("glovesChecked").innerHTML = "";
+      }
+}
+
+function mowerChecked(checkboxElem){
+        if (checkboxElem.checked) {
+        document.getElementById("mowerChecked").innerHTML = otherEquipment;
+      } else {
+        document.getElementById("mowerChecked").innerHTML = "";
+      }
+}
+
+function hedgeChecked(checkboxElem){
+        if (checkboxElem.checked) {
+        document.getElementById("hedgeChecked").innerHTML = otherEquipment;
+      } else {
+        document.getElementById("hedgeChecked").innerHTML = "";
+      }
+}
 
 </script>
 
