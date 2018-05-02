@@ -52,7 +52,7 @@
 
 
 
-<main role="main">
+<main role="main" id="pageContent">
     <section class="jumbotron text-center mt-5">
         <div class="container">
             <h1 class="jumbotron-heading">Volunteer</h1>
@@ -192,7 +192,7 @@
             <label for="exampleFormControlTextarea1">Disabilities or other Accommodations</label>
             <textarea class="form-control" id="exampleFormControlTextarea3" rows="4"></textarea>
             <br>
-            <input type="submit" value="Submit">
+            <button class="btn btn-primary btn-lg btn-block" type="submit" onclick="submitting()">Volunteer!</button>
         </div>
     </form>
 </main>
@@ -234,6 +234,18 @@
         </div>
     </footer>
 </div>
+
+<script>
+    function submitting() {
+        var form = document.getElementsByTagName('form')[0];
+        if(form.checkValidity()) {
+            document.getElementById("pageContent").innerHTML = "";
+            document.getElementById("pageContent").innerHTML = '<div class="d-flex container justify-content-center align-content-center py-5 mt-5 text-center">'+'<h2>Thank You For Signing Up To Volunteer!</h2>'+'</div>';
+            form.submit();
+        }
+    }
+</script>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

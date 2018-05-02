@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c455f80-69ae-4ce8-8bf2-5f1553a42903" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/html/Donation.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Donation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/DonationNoLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/DonationNoLogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Volunteer.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Volunteer.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,17 +21,12 @@
       <file leaf-file-name="Volunteer.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/Volunteer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="17" column="7" selection-start-line="5" selection-start-column="4" selection-end-line="17" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Donation.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/Donation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="147" column="45" selection-start-line="147" selection-start-column="45" selection-end-line="147" selection-end-column="45" />
+            <state relative-caret-position="446">
+              <caret line="141" column="39" lean-forward="true" selection-start-line="92" selection-start-column="20" selection-end-line="141" selection-end-column="39" />
+              <folding>
+                <element signature="n#style#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,7 +49,6 @@
         <option value="$PROJECT_DIR$/html/Home.html" />
         <option value="$PROJECT_DIR$/css/signin.css" />
         <option value="$PROJECT_DIR$/html/Space Rental.html" />
-        <option value="$PROJECT_DIR$/html/Volunteer.html" />
         <option value="$PROJECT_DIR$/html/Calendar.html" />
         <option value="$PROJECT_DIR$/html/CreateEvent.html" />
         <option value="$PROJECT_DIR$/html/EquipmentRental.html" />
@@ -61,6 +57,7 @@
         <option value="$PROJECT_DIR$/html/home.html" />
         <option value="$PROJECT_DIR$/html/SignUp.html" />
         <option value="$PROJECT_DIR$/html/Login.html" />
+        <option value="$PROJECT_DIR$/html/Volunteer.html" />
         <option value="$PROJECT_DIR$/html/Donation.html" />
         <option value="$PROJECT_DIR$/html/DonationNoLogin.html" />
       </list>
@@ -155,12 +152,12 @@
       <workItem from="1524374616901" duration="3764000" />
       <workItem from="1524677337909" duration="459000" />
       <workItem from="1524684272974" duration="6000" />
-      <workItem from="1525222834547" duration="3892000" />
+      <workItem from="1525222834547" duration="4472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13534000" />
+    <option name="totallyTimeSpent" value="14114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -396,13 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/DonationNoLogin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/Login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -417,17 +407,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html/DonationNoLogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="147" column="47" selection-start-line="147" selection-start-column="47" selection-end-line="147" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/Donation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="147" column="45" selection-start-line="147" selection-start-column="45" selection-end-line="147" selection-end-column="45" />
+        <state relative-caret-position="644">
+          <caret line="160" column="47" selection-start-line="160" selection-start-column="47" selection-end-line="160" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/Volunteer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="17" column="7" selection-start-line="5" selection-start-column="4" selection-end-line="17" selection-end-column="7" />
+        <state relative-caret-position="446">
+          <caret line="141" column="39" lean-forward="true" selection-start-line="92" selection-start-column="20" selection-end-line="141" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
