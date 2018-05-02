@@ -37,9 +37,6 @@
 				<h6><a class="nav-link text-dark" href="EquipmentRental.html">Equipment Rental</a></h6>
 			</li>
 			<li class="nav-item">
-				<h6><a class="nav-link text-dark" href="SpaceRental.html">Space Rental</a></h6>
-			</li>
-			<li class="nav-item">
 				<h6><a class="nav-link text-dark" href="Calendar.html">Calendar</a></h6>
 			</li>
 			<li class="nav-item">
@@ -206,11 +203,26 @@
 			<label for="exampleFormControlTextarea1">Extra Accommodations / Comments</label>
 			<textarea class="form-control" id="exampleFormControlTextarea3" rows="4"></textarea>
 		  </div>
+		   <div class="form-group">
+          <div class="text-center">
+            <button type="button" class="btn btn-primary" onclick="submits()">Submit Form</button>
+          </div>
+          </div>
+
+		  
 	</form>
 </main>
 
 
+<script>
+function submits(){
+    document.getElementById("equipmentForm").innerHTML = "";
+    document.getElementById("formTitle").innerHTML = '<h1 class="jumbotron-heading">Event Request Submitted</h1>'+
+'<p class="lead text-muted">You will recieve an email if your request is approved.</p>';
+    
 
+}
+</script>
 
 <div class="container d-flex justify-content-center">
 	<footer class="pt-4 my-md-5 pt-md-5 border-top" style="width: 100%">
@@ -222,7 +234,6 @@
 					<li><a class="text-muted" href="Donation.html">Make a donation</a></li>
 					<li><a class="text-muted" href="Volunteer.html">Volunteer</a></li>
 					<li><a class="text-muted" href="EquipmentRental.html">Equipment rental</a></li>
-					<li><a class="text-muted" href="SpaceRental.html">Space rental</a></li>
 					<li><a class="text-muted" href="Profile.html">Customize your profile</a></li>
 				</ul>
 			</div>
