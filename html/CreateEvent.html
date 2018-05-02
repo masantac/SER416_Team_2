@@ -55,11 +55,14 @@
 <main role="main">
     <section class="jumbotron text-center mt-5">
         <div class="container">
+			<div id="EventTitle">
             <h1 class="jumbotron-heading">Create Event</h1>
             <p class="lead text-muted">This page provides you with a template to select which services you would like for your event.</p>
+			</div>
         </div>
     </section>
 
+	<div id="EventPref">
 	<form class="container">
 		  <div class="form-group">
 			<label for="exampleFormControlInput1">Account Email address</label>
@@ -205,20 +208,21 @@
 		  </div>
 		   <div class="form-group">
           <div class="text-center">
-            <button type="button" class="btn btn-primary" onclick="submits()">Submit Form</button>
+            <button type="button" class="btn btn-primary" onclick="submits()">Submit Event Request</button>
           </div>
           </div>
 
 		  
 	</form>
+	</div>
 </main>
 
 
 <script>
 function submits(){
-    document.getElementById("equipmentForm").innerHTML = "";
-    document.getElementById("formTitle").innerHTML = '<h1 class="jumbotron-heading">Event Request Submitted</h1>'+
-'<p class="lead text-muted">You will recieve an email if your request is approved.</p>';
+    document.getElementById("EventPref").innerHTML = "";
+    document.getElementById("EventTitle").innerHTML = '<h1 class="jumbotron-heading">Event Request Submitted</h1>'+
+'<p class="lead text-muted">You will recieve an email if the room is available, and your request has been approved.</p>';
     
 
 }
