@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4c455f80-69ae-4ce8-8bf2-5f1553a42903" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Donation.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Donation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/DonationNoLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/DonationNoLogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/SignUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/SignUp.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,29 +20,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Volunteer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/Volunteer.html">
+      <file leaf-file-name="Donation.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/Donation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="7" selection-start-line="5" selection-start-column="4" selection-end-line="17" selection-end-column="7" />
+            <state relative-caret-position="578">
+              <caret line="147" column="45" selection-start-line="147" selection-start-column="45" selection-end-line="147" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpaceRental.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/SpaceRental.html">
+      <file leaf-file-name="SignUp.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/SignUp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+            <state relative-caret-position="543">
+              <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/home.html">
+      <file leaf-file-name="Login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/Login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
+            <state relative-caret-position="206">
+              <caret line="85" column="33" lean-forward="true" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DonationNoLogin.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/DonationNoLogin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -61,18 +73,18 @@
       <list>
         <option value="$PROJECT_DIR$/html/Home.html" />
         <option value="$PROJECT_DIR$/css/signin.css" />
-        <option value="$PROJECT_DIR$/html/SignUp.html" />
-        <option value="$PROJECT_DIR$/html/Login.html" />
         <option value="$PROJECT_DIR$/html/Space Rental.html" />
         <option value="$PROJECT_DIR$/html/Volunteer.html" />
         <option value="$PROJECT_DIR$/html/Calendar.html" />
         <option value="$PROJECT_DIR$/html/CreateEvent.html" />
-        <option value="$PROJECT_DIR$/html/Donation.html" />
-        <option value="$PROJECT_DIR$/html/DonationNoLogin.html" />
         <option value="$PROJECT_DIR$/html/EquipmentRental.html" />
         <option value="$PROJECT_DIR$/html/Profile.html" />
         <option value="$PROJECT_DIR$/html/SpaceRental.html" />
         <option value="$PROJECT_DIR$/html/home.html" />
+        <option value="$PROJECT_DIR$/html/SignUp.html" />
+        <option value="$PROJECT_DIR$/html/Login.html" />
+        <option value="$PROJECT_DIR$/html/Donation.html" />
+        <option value="$PROJECT_DIR$/html/DonationNoLogin.html" />
       </list>
     </option>
   </component>
@@ -165,12 +177,12 @@
       <workItem from="1524374616901" duration="3764000" />
       <workItem from="1524677337909" duration="459000" />
       <workItem from="1524684272974" duration="6000" />
-      <workItem from="1525222834547" duration="735000" />
+      <workItem from="1525222834547" duration="3321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10377000" />
+    <option name="totallyTimeSpent" value="12963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -361,20 +373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/SignUp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/Login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/Calendar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
@@ -386,20 +384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="619">
           <caret line="236" column="6" selection-start-line="236" selection-start-column="6" selection-end-line="236" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/Donation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="238" column="6" selection-start-line="238" selection-start-column="6" selection-end-line="238" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/DonationNoLogin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="223" column="6" selection-start-line="223" selection-start-column="6" selection-end-line="223" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -417,10 +401,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/Volunteer.html">
+    <entry file="file://$PROJECT_DIR$/html/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="7" selection-start-line="5" selection-start-column="4" selection-end-line="17" selection-end-column="7" />
+        <state relative-caret-position="613">
+          <caret line="57" column="70" lean-forward="true" selection-start-line="57" selection-start-column="70" selection-end-line="57" selection-end-column="70" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#p#1;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -431,10 +418,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/home.html">
+    <entry file="file://$PROJECT_DIR$/html/Volunteer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
+        <state relative-caret-position="17">
+          <caret line="17" column="7" selection-start-line="5" selection-start-column="4" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="85" column="33" lean-forward="true" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/SignUp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Donation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="147" column="45" selection-start-line="147" selection-start-column="45" selection-end-line="147" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/DonationNoLogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
